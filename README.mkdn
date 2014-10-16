@@ -1,12 +1,12 @@
 Getting Started
 ---------------
 
-To get started with Android/BeanStalk, you'll need to get
+To get started with GiggleKat, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the BeanStalk trees, use a command like this:
+To initialize your local repository using the GiggleKat trees, use a command like this:
 
-    repo init -u git://github.com/TeamBliss/android.git -b kk4.4
+    repo init -u git://github.com/GiggleKatDevs/android.git -b kitkat
 
 Then to sync up:
 
