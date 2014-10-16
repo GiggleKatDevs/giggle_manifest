@@ -20,7 +20,9 @@
 
   <remote name="lsd"
           fetch="https://github.com/LiquidSmooth-Devices/" />
-
+          
+  <remote name="gk"
+          fetch="https://github.com/GiggleKatDevs/" />
   <remote name="TeamBliss"
           fetch="https://github.com/TeamBliss/" />
 
@@ -47,11 +49,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="TeamBliss/platform_build" revision="kk4.4" >
+  <project path="build" name="giggle_build" remote="gk" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="TeamBliss/android" revision="kk4.4" />
+  <project path="android" name="giggle_manifest" remote="gk" revision="kitkat" />
   
   <!--AOSP repos-->
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="cts" />
@@ -397,7 +399,7 @@
   <project path="art" name="TeamBliss/android_art" revision="kk4.4" />
   <project path="bionic" name="TeamBliss/android_bionic" revision="kk4.4" />
   <project path="frameworks/av" name="TeamBliss/android_frameworks_av" revision="kk4.4" />
-  <project path="frameworks/base" name="TeamBliss/android_frameworks_base" revision="kk4.4" />
+  <project path="frameworks/base" name="giggle_base" remote="gk" revision="kitkat" />
   <project path="frameworks/native" name="TeamBliss/frameworks_native" revision="kk4.4" />
   <project path="frameworks/opt/cards" name="TeamBliss/frameworks_opt_cards" revision="kk4.4" />
   <project path="frameworks/opt/datetimepicker" name="TeamBliss/android_frameworks_opt_datetimepicker" revision="kk4.4" />
@@ -405,7 +407,7 @@
   <project path="frameworks/opt/timezonepicker" name="TeamBliss/android_frameworks_opt_timezonepicker" revision="kk4.4" />
   <project path="frameworks/opt/telephony" name="TeamBliss/android_frameworks_opt_telephony" revision="kk4.4" />
   <project path="packages/apps/BlissPapers" name="TeamBliss/android_packages_apps_BlissPapers" revision="kk4.4" />
-  <project path="packages/apps/BlissUpdater" name="TeamBliss/android_packages_apps_BlissUpdater" revision="kk4.4" />
+  <project path="packages/apps/GiggleKatUpdater" name="GiggleKatUpdater_app" remote="gk" revision="kitkat" />
   <project path="packages/apps/Bluetooth" name="TeamBliss/android_packages_apps_Bluetooth" revision="kk4.4" />
   <project path="packages/apps/Calculator" name="TeamBliss/android_packages_apps_Calculator" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="TeamBliss/android_packages_apps_Calendar" revision="kk4.4" />
@@ -416,7 +418,7 @@
   <project path="packages/apps/DashClock" name="TeamBliss/android_packages_apps_DashClock" revision="kk4.4" />
   <project path="packages/apps/DeskClock" name="TeamBliss/android_packages_apps_DeskClock" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="TeamBliss/android_packages_apps_Dialer" revision="kk4.4" />
-  <project path="packages/apps/DSPManager" name="TeamBliss/android_packages_apps_DSPManager" revision="kk4.4" />
+  <!-- <project path="packages/apps/DSPManager" name="TeamBliss/android_packages_apps_DSPManager" revision="kk4.4" /> -->
   <project path="packages/apps/Email" name="TeamBliss/android_packages_apps_Email" revision="kk4.4" />
   <project path="packages/apps/Gallery2" name="TeamBliss/android_packages_apps_Gallery2" revision="kk4.4" />
   <project path="packages/apps/InCallUI" name="TeamBliss/android_packages_apps_InCallUI" revision="kk4.4" />
@@ -425,8 +427,7 @@
   <project path="packages/apps/OmniSwitch" name="TeamBliss/android_packages_apps_OmniSwitch" revision="kk4.4" />  
   <project path="packages/apps/PackageInstaller" name="TeamBliss/android_packages_apps_PackageInstaller" revision="kk4.4" />       
   <project path="packages/apps/PhoneCommon" name="TeamBliss/android_packages_apps_PhoneCommon" revision="kk4.4" />
-  <project path="packages/apps/Settings" name="TeamBliss/android_packages_apps_Settings" revision="kk4.4" /> 
-  <project path="packages/apps/BlissExplorer" name="TeamBliss/android_packages_apps_BlissExplorer" revision="kk4.4" /> 
+  <project path="packages/apps/Settings" name="giggle_settings" remote="gk" revision="kitkat" /> 
   <project path="packages/apps/Stk" name="TeamBliss/android_packages_apps_Stk" revision="kk4.4" /> 
   <project path="packages/apps/UnifiedEmail" name="TeamBliss/android_packages_apps_UnifiedEmail" revision="kk4.4" />
   <project path="packages/apps/Torch" name="TeamBliss/android_packages_apps_Torch" revision="kk4.4" />  
@@ -436,7 +437,7 @@
   <project path="packages/providers/MediaProvider" name="TeamBliss/packages_providers_MediaProvider" revision="kk4.4" />  
   <project path="packages/providers/TelephonyProvider" name="TeamBliss/android_packages_providers_TelephonyProvider" revision="kk4.4" />
   <project path="packages/services/Telephony" name="TeamBliss/android_packages_services_Telephony" revision="kk4.4" />  
-  <project path="vendor/bliss" name="TeamBliss/proprietary_vendor_bliss" revision="kk4.4" />
+  <project path="vendor/gigglekat" name="giggle_vendor" remote="gk" revision="kitkat" />
     
   <!--Frameworks-->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
@@ -552,5 +553,17 @@
   <!--NEW THEME CHOOSER-->
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" revision="cm-11.0" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" revision="cm-11.0" />
+  
+<!-- Device Repos -->
+
+<!-- Trees -->
+<!-- LGE -->
+<!-- Kernels -->
+<!-- LGE-->
+<project name="kernel_lge_msm8974" path="kernel/lge/msm8974" remote="lsd" revision="kitkat" />
+
+<!-- Vendors -->
+  <project name="vendor_lge_g2" path="vendor/lge/g2" remote="lsd" revision="kitkat" />
+
   
 </manifest>
