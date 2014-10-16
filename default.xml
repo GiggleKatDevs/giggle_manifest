@@ -23,6 +23,7 @@
           
   <remote name="gk"
           fetch="https://github.com/GiggleKatDevs/" />
+          
   <remote name="TeamBliss"
           fetch="https://github.com/TeamBliss/" />
 
@@ -558,6 +559,7 @@
 
 <!-- Trees -->
 <!-- LGE -->
+<project name="giggle_vs980" path="device/lge/vs980" remote="gk" revision="kitkat" />
 <!-- Kernels -->
 <!-- LGE-->
 <project name="kernel_lge_msm8974" path="kernel/lge/msm8974" remote="lsd" revision="kitkat" />
