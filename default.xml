@@ -576,7 +576,7 @@
 <!-- LGE -->
   <project name="vendor_lge_g2" path="vendor/lge/g2" remote="lsd" revision="kitkat" />
 <!-- Motorola -->
-  <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="tm" revision="cm-11.0" />
+  <!-- <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="tm" revision="cm-11.0" /> -->
 
   
 </manifest>
