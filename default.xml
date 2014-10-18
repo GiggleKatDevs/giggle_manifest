@@ -560,12 +560,20 @@
 <!-- Trees -->
 <!-- LGE -->
 <project name="giggle_vs980" path="device/lge/vs980" remote="gk" revision="kitkat" />
+<!-- Motorola -->
+<project name="giggle_moto_msm8960-kkbl" path="motorola/moto_msm8960" remote="gk" revision="kitkat"
+
 <!-- Kernels -->
 <!-- LGE-->
 <project name="kernel_lge_msm8974" path="kernel/lge/msm8974" remote="lsd" revision="kitkat" />
+<!-- Motorola -->
+  <project name="cj360/kernel_motorola_msm8960dt-common" path="kernel/motorola/msm8960dt-common" remote="gh" revision="kitkat"  />
 
 <!-- Vendors -->
+<!-- LGE -->
   <project name="vendor_lge_g2" path="vendor/lge/g2" remote="lsd" revision="kitkat" />
+<!-- Motorola -->
+  <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="tm" revision="cm-11.0" />
 
   
 </manifest>
