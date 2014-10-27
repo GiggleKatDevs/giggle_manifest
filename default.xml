@@ -569,6 +569,7 @@
 <!-- Trees -->
 <!-- LGE -->
 <project name="giggle_vs980" path="device/lge/vs980" remote="gk" revision="kitkat" />
+<project name="giggle_hammerhead" path="device/lge/hammerhead" remote="gk" revision="kitkat" />
 <!-- Motorola -->
 <project name="giggle_moto_msm8960-kkbl" path="device/motorola/moto_msm8960" remote="gk" revision="kitkat" />
 <project name="giggle_moto_ghost" path="device/motorola/ghost" remote="gk" revision="kitkat" />
@@ -576,6 +577,7 @@
 <!-- Kernels -->
 <!-- LGE-->
 <project name="kernel_lge_msm8974" path="kernel/lge/msm8974" remote="lsd" revision="kitkat" />
+<project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="cm" revision="cm-11.0" />
 <!-- Motorola -->
   <project name="cj360/kernel_motorola_msm8960dt-common" path="kernel/motorola/msm8960dt-common" remote="gh" revision="kitkat"  />
   <project name="android_kernel_motorola_ghost" path="kernel/motorola/ghost" remote="cm" revision="cm-11.0" />
