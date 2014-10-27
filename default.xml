@@ -570,6 +570,7 @@
 <!-- LGE -->
 <project name="giggle_vs980" path="device/lge/vs980" remote="gk" revision="kitkat" />
 <project name="giggle_hammerhead" path="device/lge/hammerhead" remote="gk" revision="kitkat" />
+<project name="giggle_d802" path="device/lge/d802" remote="gk" revision="kitkat" />
 <!-- Motorola -->
 <project name="giggle_moto_msm8960-kkbl" path="device/motorola/moto_msm8960" remote="gk" revision="kitkat" />
 <project name="giggle_moto_ghost" path="device/motorola/ghost" remote="gk" revision="kitkat" />
