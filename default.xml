@@ -592,5 +592,6 @@
  <project name="android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="cm" revision="cm-11.0" />
 <!-- SONY -->
 <project name="android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="cm" revision="cm-11.0" />
+<project name="android_device_sony_common" path="device/sony/common" remote="cm" revision="cm-11.0" />
   
 </manifest>
