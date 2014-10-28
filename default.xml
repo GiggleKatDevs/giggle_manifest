@@ -593,7 +593,7 @@
 
 <!-- Vendors & Commons -->
 <!-- LGE -->
-  <project name="vendor_lge_g2" path="vendor/lge/g2" remote="lsd" revision="kitkat" />
+  <project name="vendor_lge_g2" path="vendor/lge/g2-common" remote="lsd" revision="kitkat" />
 <!-- Motorola -->
  <project name="android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="cm" revision="cm-11.0" />
  <project name="android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="cm" revision="cm-11.0" />
