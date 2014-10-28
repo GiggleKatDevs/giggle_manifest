@@ -89,7 +89,6 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -121,6 +120,8 @@
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="cm" revision="cm-11.0" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" /> 
@@ -402,7 +403,7 @@
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
   
   <!--TeamBliss repos-->
-  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" />
+  <!--<project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" /> -->
   <project path="external/skia" name="TeamBliss/android_external_skia" revision="kk4.4" /> 
   <project path="external/stagefright-plugins" name="TeamBliss/android_external_stagefright-plugins" revision="kk4.4" />  
   <project path="system/core" name="TeamBliss/platform_system_core" revision="kk4.4" />
