@@ -587,7 +587,7 @@
 <!-- Motorola -->
   <project name="cj360/kernel_motorola_msm8960dt-common" path="kernel/motorola/msm8960dt-common" remote="gh" revision="kitkat"  />
   <project name="android_kernel_motorola_ghost" path="kernel/motorola/ghost" remote="cm" revision="cm-11.0" />
-  <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remot="cm" revision="cm-11.0" />
+  <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" revision="cm-11.0" />
 <!-- SONY -->
   <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="du" revision="du44" />
 
