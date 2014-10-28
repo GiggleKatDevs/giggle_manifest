@@ -574,6 +574,8 @@
 <!-- Motorola -->
 <project name="giggle_moto_msm8960-kkbl" path="device/motorola/moto_msm8960" remote="gk" revision="kitkat" />
 <project name="giggle_moto_ghost" path="device/motorola/ghost" remote="gk" revision="kitkat" />
+<!-- SONY -->
+<project name="giggle_yuga" path="device/sony/yuga" remote="gk" revision="kitkat" />
 
 <!-- Kernels -->
 <!-- LGE-->
