@@ -594,7 +594,7 @@
   <project name="cj360/kernel_motorola_msm8960dt-common" path="kernel/motorola/msm8960dt-common" remote="gh" revision="kitkat"  />
   <!--<project name="android_kernel_motorola_ghost" path="kernel/motorola/ghost" remote="cm" revision="cm-11.0" />-->
   <project name="DJLaMontagneIII/android_kernel_motorola_ghost" path="kernel/motorola/ghost" remote="gh" revision="DJL11" />
-  <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" revision="cm-11.0" />
+  <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="lsd" revision="kitkat" />
 <!-- SONY -->
   <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="du" revision="du44" />
 <!--Samsung-->
@@ -611,7 +611,8 @@
   <project name="android_hardware_qcom_media-caf" path="hardware/qcom/media-caf" remote="ls" revision="kitkat" />
 <!-- Motorola -->
  <project name="android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="cm" revision="cm-11.0" />
- <project name="android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="cm" revision="cm-11.0" />
+ <project name="android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="lsd" revision="kitkat" />
+ <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="cm" revision="cm-11.0" />
 <!-- SONY -->
   <project name="android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="du" revision="du44" />
   <project name="android_device_sony_common" path="device/sony/common" remote="du" revision="du44" />
