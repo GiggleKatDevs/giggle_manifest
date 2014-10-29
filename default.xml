@@ -578,7 +578,7 @@
   <project name="giggle_ls980" path="device/lge/ls980" remote="gk" revision="kitkat" />
 <!-- Motorola -->
   <project name="giggle_moto_msm8960-kkbl" path="device/motorola/moto_msm8960" remote="gk" revision="kitkat" />
-  <project name="giggle_moto_ghost" path="device/motorola/ghost" remote="gk" revision="kitkat" />
+  <project name="giggle_ghost" path="device/motorola/ghost" remote="gk" revision="kitkat" />
   <project name="giggle_falcon" path="device/motorola/falcon" remote="gk" revision="kitkat" />
 <!-- SONY -->
   <project name="giggle_yuga" path="device/sony/yuga" remote="gk" revision="kitkat" />
