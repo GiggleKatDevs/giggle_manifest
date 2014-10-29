@@ -595,6 +595,8 @@
   <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" revision="cm-11.0" />
 <!-- SONY -->
   <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="du" revision="du44" />
+<!--Samsung-->
+  <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm=11.0" />
 
 <!-- Vendors & Commons -->
 <!-- LGE -->
@@ -610,6 +612,14 @@
 <!-- SONY -->
   <project name="android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="du" revision="du44" />
   <project name="android_device_sony_common" path="device/sony/common" remote="du" revision="du44" />
-<project name="android_device_sony_qcom-common" path="device/sony/qcom-common" remote="du" revision="du44" />
+  <project name="android_device_sony_qcom-common" path="device/sony/qcom-common" remote="du" revision="du44" />
+<!-- Samsung -->
+  <project name="android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="cm" revision="cm-11.0" />
+  
+<!-- Hardware Apps -->
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="cm" revision="cm-11.0" />
+  <project name="android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="cm" revision="cm-11.0" />
+  
+
   
 </manifest>
