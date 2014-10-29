@@ -598,7 +598,7 @@
 <!-- SONY -->
   <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="du" revision="du44" />
 <!--Samsung-->
-  <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm=11.0" />
+  <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm-11.0" />
   <project name="android_kernel_samsung_jf" path="kernel/samsung/jf" remote="cm" revision="cm-11.0" />
 
 <!-- Vendors & Commons -->
