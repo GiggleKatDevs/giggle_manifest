@@ -575,7 +575,6 @@
   <project name="giggle_d801" path="device/lge/d801" remote="gk" revision="kitkat" />
   <project name="giggle_d800" path="device/lge/d800" remote="gk" revision="kitkat" />  
   <project name="giggle_d803" path="device/lge/d803" remote="gk" revision="kitkat" />
-  
   <project name="giggle_ls980" path="device/lge/ls980" remote="gk" revision="kitkat" />
 <!-- Motorola -->
   <project name="giggle_moto_msm8960-kkbl" path="device/motorola/moto_msm8960" remote="gk" revision="kitkat" />
@@ -583,6 +582,8 @@
   <project name="giggle_falcon" path="device/motorola/falcon" remote="gk" revision="kitkat" />
 <!-- SONY -->
   <project name="giggle_yuga" path="device/sony/yuga" remote="gk" revision="kitkat" />
+<!-- Samsung -->
+<project name="giggle_n700" path="device/samsung/n700" remote="gk" revision="kitkat" />
 
 <!-- Kernels -->
 <!-- LGE-->
