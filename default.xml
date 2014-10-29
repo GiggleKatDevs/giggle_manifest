@@ -583,7 +583,7 @@
 <!-- SONY -->
   <project name="giggle_yuga" path="device/sony/yuga" remote="gk" revision="kitkat" />
 <!-- Samsung -->
-<project name="giggle_n700" path="device/samsung/n700" remote="gk" revision="kitkat" />
+<project name="giggle_n700" path="device/samsung/n7000" remote="gk" revision="kitkat" />
 <project name="giggle_jflte" path="device/samsung/jflte" remote="gk" revision="kitkat" />
 
 <!-- Kernels -->
