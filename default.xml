@@ -584,6 +584,7 @@
   <project name="giggle_yuga" path="device/sony/yuga" remote="gk" revision="kitkat" />
 <!-- Samsung -->
 <project name="giggle_n700" path="device/samsung/n700" remote="gk" revision="kitkat" />
+<project name="giggle_jflte" path="device/samsung/jflte" remote="gk" revision="kitkat" />
 
 <!-- Kernels -->
 <!-- LGE-->
@@ -598,6 +599,7 @@
   <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="du" revision="du44" />
 <!--Samsung-->
   <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm=11.0" />
+  <project name="android_kernel_samsung_jf" path="kernel/samsung/jf" remote="cm" revision="cm-11.0" />
 
 <!-- Vendors & Commons -->
 <!-- LGE -->
@@ -616,6 +618,7 @@
   <project name="android_device_sony_qcom-common" path="device/sony/qcom-common" remote="du" revision="du44" />
 <!-- Samsung -->
   <project name="android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="cm" revision="cm-11.0" />
+  <project name="android_device_samsung_jf-common" path="device/samsung/jf-common" remote="cm" revision="cm-11.0" />
   
 <!-- Hardware Apps -->
   <project name="android_hardware_samsung" path="hardware/samsung" remote="cm" revision="cm-11.0" />
