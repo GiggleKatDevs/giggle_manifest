@@ -631,7 +631,7 @@
   <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_samsung_lt01-common" path="device/samsung/lt01-common" remote="lsd" revision="kitkat" />
   <project name="device_samsung_omap4-common" path="device/samsung/omap4-common" remote="sr" revision="kk4.4" />
-  <project name="android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="ls" revision="kitkat" />
+  
   
 
 
