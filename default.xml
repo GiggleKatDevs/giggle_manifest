@@ -587,7 +587,7 @@
 <project name="giggle_jflte" path="device/samsung/jflte" remote="gk" revision="kitkat" />
 <project name="giggle_lt01wifi" path="device/samsung/lt01wifi" remote="gk" revision="kitkat" />
 <project name="giggle_p3110" path="device/samsung/p3110" remote="gk" revision="kitkat" />
-<project name="android_device_samsung_lt013g" path="device/samsung/lt013g" remote="ls" revision="kitkat" />
+<project name="android_device_samsung_lt013g" path="device/samsung/lt013g" remote="lsd" revision="kitkat" />
 <project name="android_device_samsung_p3100" path="device/samsung/p3100" remote="lsd" revision="kitkat" />
 
 <!-- Kernels -->
