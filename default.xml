@@ -605,7 +605,7 @@
   <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm-11.0" />
   <project name="android_kernel_samsung_jf" path="kernel/samsung/jf" remote="cm" revision="cm-11.0" />
   <project name="kumajaya/android_kernel_samsung_smdk4x12" path="kernel/samsung/smdk4x12" remote="gh" revision="cm-11.0" />
-  <project name="kernel_samsung_espresso10" path="kernel/samsung/espresso10" remote="sr" revision="kk4.4"
+  <project name="kernel_samsung_espresso10" path="kernel/samsung/espresso10" remote="sr" revision="kk4.4" />
   
 
 <!-- Vendors & Commons -->
