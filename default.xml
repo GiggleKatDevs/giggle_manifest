@@ -585,6 +585,10 @@
 <!-- Samsung -->
 <project name="giggle_n7000" path="device/samsung/n7000" remote="gk" revision="kitkat" />
 <project name="giggle_jflte" path="device/samsung/jflte" remote="gk" revision="kitkat" />
+<project name="giggle_lt01wifi" path="device/samsung/lt01wifi" remote="gk" revision="kitkat" />
+<project name="giggle_p3110" path="device/samsung/p3110" remote="gk" revision="kitkat" />
+<project name="android_device_samsung_lt013g" path="device/samsung/lt013g" remote="ls" revision="kitkat" />
+<project name="android_device_samsung_p3100" path="device/samsung/p3100" remote="lsd" revision="kitkat" />
 
 <!-- Kernels -->
 <!-- LGE-->
@@ -600,6 +604,9 @@
 <!--Samsung-->
   <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm-11.0" />
   <project name="android_kernel_samsung_jf" path="kernel/samsung/jf" remote="cm" revision="cm-11.0" />
+  <project name="kumajaya/android_kernel_samsung_smdk4x12" path="kernel/samsung/smdk4x12" remote="gh" revision="cm-11.0" />
+  <project name="kernel_samsung_espresso10" path="kernel/samsung/espresso10" remote="sr" revision="kk4.4"
+  
 
 <!-- Vendors & Commons -->
 <!-- LGE -->
@@ -621,6 +628,10 @@
 <!-- Samsung -->
   <project name="android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_samsung_jf-common" path="device/samsung/jf-common" remote="cm" revision="cm-11.0" />
+  <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-11.0" />
+  <project name="android_device_samsung_lt01-common" path="device/samsung/lt01-common" remote="lsd" revision="kitkat" />
+  <project name="device_samsung_omap4-common" path="device/samsung/omap4-common" remote="sr" revision="kk4.4" />
+  <project name="android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="ls" revision="kitkat" />
   
 
 
